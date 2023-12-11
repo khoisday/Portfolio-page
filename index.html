@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Khoi Nguyen</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js" defer></script>
+    <script src="https://unpkg.com/split-type" defer></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!--Header-->
+    <header class="fixed">
+        <div class="logo_and_time">
+            <img class="logo" id="logo" src="photos/khoing.png" alt="logo">
+            <p class="time">Melbourne, Australia &nbsp<span id="current-time"> Loading...</span></p>
+        </div>
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" id="link-about" href="#about"> About</a></li>
+                <li><a class="nav-link" id="link-skills" href="#skills"> Skills</a></li>
+                <li><a class="nav-link" id="link-projects" href="#projects"> Projects</a></li>
+                <li><button class="pill" type="button"><a class="nav-link" id="link-contact" href="#contact"> Contact</a></button></li>
+            </ul>
+        </nav>
+    </header>
+    <!--End of header-->
+    <section class="welcome-section">
+        <div class="introduction">
+            <div class="name split" id="wbw" style="color: #262626; font-size: 225px; font-family: General Sans Variable; font-weight: 600; word-wrap: break-word; z-index: 999;">HEY, I'M KHOI</div>
+            <div class="name linear-stroke-bot" id="layer1" style="color: #f2f2f2; font-size: 225px; font-family: General Sans Variable; font-weight: 600; word-wrap: break-word">HEY, I'M KHOI</div>
+            <div class="name linear-stroke-bot" id="layer2" style="color: #f2f2f2; font-size: 225px; font-family: General Sans Variable; font-weight: 600; word-wrap: break-word">HEY, I'M KHOI</div>
+            <div class="name linear-stroke-top" id="layer3" style="color: #f2f2f2; font-size: 225px; font-family: General Sans Variable; font-weight: 600; word-wrap: break-word">HEY, I'M KHOI</div>
+            <div class="name linear-stroke-top" id="layer4" style="color: #f2f2f2; font-size: 225px; font-family: General Sans Variable; font-weight: 600; word-wrap: break-word">HEY, I'M KHOI</div>
+            <div class="scroll">(scroll)</div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <h1 class="bio">I create digital experiences that captivate and engage individuals with innovative design and development.</h1>
+        <div class="description">
+            <div class="half-circle"></div>
+            <div id="about-me">ABOUT ME</div>
+            <div class="half-circle"></div>
+        </div>
+        <div class="brief">
+            <div class="image-container"></div>
+        </div>
+    </section>
+</body>
+</html>
